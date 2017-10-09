@@ -15,9 +15,9 @@ class Table < Furniture
 	end
 
 	def description
-		p @description
+		puts @description
 	end
 end
 table = Table.new
 table.to_s
-table.description
+table.total_size(1,2,3)
